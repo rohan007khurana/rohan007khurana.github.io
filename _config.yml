@@ -2,6 +2,11 @@ title: Your Blog Title
 description: A place where I document what I learn
 author: Your Name
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
 # Build settings
 theme: minima
 permalink: /:year/:month/:day/:title/
