@@ -1,3 +1,24 @@
-theme: midnight
-title: My Learning Documentation
+title: Your Blog Title
 description: A place where I document what I learn
+author: Your Name
+
+# Build settings
+theme: minima
+permalink: /:year/:month/:day/:title/
+
+# Show posts by year on home page
+show_excerpts: false
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-archives
+
+# Jekyll Archives config (optional)
+jekyll-archives:
+  enabled:
+    - year
+  layouts:
+    year: year-archive
+  permalinks:
+    year: '/:year/'
